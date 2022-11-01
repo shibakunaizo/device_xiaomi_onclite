@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_onclite.mk
+    $(LOCAL_DIR)/qassa_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_onclite-user \
-    aosp_onclite-userdebug \
-    aosp_onclite-eng
+    qassa_onclite-user \
+    qassa_onclite-userdebug \
+    qassa_onclite-eng
