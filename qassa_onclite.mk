@@ -19,6 +19,7 @@ $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 QASSA_MAINTAINER := LizRelDev
 TARGET_BOOT_ANIMATION_RES := 720
 USE_PIXEL_CHARGING := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := qassa_onclite
