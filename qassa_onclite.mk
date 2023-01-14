@@ -17,9 +17,9 @@ $(call inherit-product, vendor/qassa/config/common_full_phone.mk)
 
 # Inherit QASSA stuff
 QASSA_MAINTAINER := LizRelDev
-TARGET_BOOT_ANIMATION_RES := 720
 USE_PIXEL_CHARGING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := qassa_onclite
@@ -28,9 +28,9 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "xiaomi/onc/onc:9/PKQ1.181021.001/V11.0.3.0.PFLMIXM:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="onc-user 9 PKQ1.181021.001 V11.0.3.0.PFLMIXM release-keys"
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
